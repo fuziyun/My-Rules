@@ -159,7 +159,7 @@ server=/falogin.cn/system
 ;round-robin=policy-name-7, resource-tag-regex=^sample, server-tag-regex=^example
 
 static=Disney+, proxy, direct, resource-tag-regex=(Amy)|(WestData), img-url=https://raw.githubusercontent.com/fuziyun/My-Rules/main/icons/GlobalTV.png
-static=YouTube, proxy, direct, resource-tag-regex=(Amy)|(WestData), img-url=https://raw.githubusercontent.com/fuziyun/My-Rules/main/icons/youtube.png
+static=YouTube, proxy, direct, resource-tag-regex=(Amy)|(WestData), img-url=https://raw.githubusercontent.com/fuziyun/My-Rules/main/icons/YouTube.png
 static=Spotify, proxy, direct, resource-tag-regex=(Amy)|(WestData), img-url=https://raw.githubusercontent.com/fuziyun/My-Rules/main/icons/Spotify.png
 static=Telegram, proxy, direct, resource-tag-regex=(Amy)|(WestData), img-url=https://raw.githubusercontent.com/fuziyun/My-Rules/main/icons/Telegram.png
 static=Apple, direct, proxy, resource-tag-regex=(Amy)|(WestData), img-url=https://raw.githubusercontent.com/fuziyun/My-Rules/main/icons/Apple.png
