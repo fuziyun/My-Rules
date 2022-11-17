@@ -32,4 +32,5 @@ DOMAIN-KEYWORD,get_peers
 DOMAIN-KEYWORD,info_hash
 DOMAIN-KEYWORD,peer_id
 DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,zimuku
 #DOMAIN-KEYWORD,downloadtorrentfile
