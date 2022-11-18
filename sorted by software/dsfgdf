@@ -1,0 +1,50 @@
+[custom]
+;不要随意改变关键字，否则会导致出错
+
+# Block OTA update for iOS
+#ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/SoftwareUpdate.sgmodule
+# Unbreak 后续规则修正
+ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list
+# Advertising 广告
+ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
+# Privacy 隐私
+#ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list
+# Hijacking 运营商劫持或恶意网站
+ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list
+# Disney+
+ruleset=🇩Disney+,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list
+# Netflix
+#ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
+# YouTube
+ruleset=▶️YouTube,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list
+# Spotify
+ruleset=🎵Spotify,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list
+# Streaming 国际流媒体服务
+ruleset=🎞Streaming,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list
+# StreamingSE 中国流媒体服务(面向海外版本)
+ruleset=🎞StreamingSE,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list
+# Telegram
+ruleset=📟Telegram,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list
+# Global 全球加速
+ruleset=🚀Proxy,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
+# Apple 服务
+ruleset=🍎Apple,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list
+# China 中国直连
+ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
+# my直连
+ruleset=DIRECT,https://raw.githubusercontent.com/fuziyun/My-Rules/main/1DIRECT.txt
+ruleset=DIRECT,[]GEOIP,CN
+ruleset=🧭Final,[]FINAL
+
+custom_proxy_group=🚀Proxy`select`.*
+custom_proxy_group=🇩Disney+`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=▶️YouTube`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=🎵Spotify`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=📟Telegram`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=🍎Apple`select`[]DIRECT`[]Proxy`.*
+custom_proxy_group=🧭Final`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=🎞Streaming`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=🎞StreamingSE`select`[]DIRECT`[]Proxy`.*
+
+enable_rule_generator=true
+overwrite_original_rules=true
