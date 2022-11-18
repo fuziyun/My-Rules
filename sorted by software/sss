@@ -1,0 +1,27 @@
+[custom]
+;不要随意改变关键字，否则会导致出错
+
+ruleset=DIRECT,https://raw.githubusercontent.com/fuziyun/My-Rules/main/1DIRECT.txt
+ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/AdvertisingPlus.list#type=domain-set
+ruleset=📺 Netflix,https://raw.githubusercontent.com/fuziyun/My-Rules/main/2NETFLIX.txt
+ruleset=REJECT,https://raw.githubusercontent.com/fuziyun/My-Rules/main/3REJECT.txt
+ruleset=💓 Yougram,https://raw.githubusercontent.com/fuziyun/My-Rules/main/4YOUTUBE%2BTELEGRAM.txt
+ruleset=🌍 GlobalTV,https://raw.githubusercontent.com/fuziyun/My-Rules/main/5GLOBALTV.txt
+ruleset=DIRECT,https://raw.githubusercontent.com/fuziyun/My-Rules/main/6BILIBILI.txt
+ruleset=DIRECT,https://raw.githubusercontent.com/fuziyun/My-Rules/main/8APPLE.txt
+ruleset=Proxy,https://raw.githubusercontent.com/fuziyun/My-Rules/main/9PROXY.txt
+ruleset=Ⓜ️ Microsoft,https://raw.githubusercontent.com/fuziyun/My-Rules/main/10MICROSOFT.txt
+ruleset=DIRECT,https://raw.githubusercontent.com/fuziyun/My-Rules/main/11DIRECT.txt
+;ruleset=DIRECT,[]GEOIP,LAN
+ruleset=DIRECT,[]GEOIP,CN
+ruleset=🐟 Others,[]FINAL
+
+custom_proxy_group=Proxy`select`.*
+custom_proxy_group=📺 Netflix`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=💓 Yougram`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=🌍 GlobalTV`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Ⓜ️ Microsoft`select`[]DIRECT`[]Proxy`.*
+custom_proxy_group=🐟 Others`select`[]Proxy`[]DIRECT`.*
+
+enable_rule_generator=true
+overwrite_original_rules=true
