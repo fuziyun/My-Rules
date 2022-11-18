@@ -223,6 +223,12 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Ext
 # China 中国直连
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list, tag=🇨🇳China, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
 
+# my代理
+https://raw.githubusercontent.com/fuziyun/My-Rules/main/My%20Proxy, tag=MyProxy, force-policy=proxy, update-interval=172800, opt-parser=true, enabled=true
+
+# my直连
+https://raw.githubusercontent.com/fuziyun/My-Rules/main/My%20DIRECT, tag=MyDirect, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
+
 [rewrite_remote]
 #
 # 参数「tag」和「enabled」是可选的。
