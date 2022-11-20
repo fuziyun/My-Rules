@@ -159,6 +159,7 @@ server=/falogin.cn/system
 ;round-robin=policy-name-7, resource-tag-regex=^sample, server-tag-regex=^example
 
 static=Disney+, proxy, direct, resource-tag-regex=(Amy)|(WestData), img-url=https://raw.githubusercontent.com/fuziyun/My-Rules/main/icons/GlobalTV.png
+static=Netflix, proxy, direct, resource-tag-regex=(Amy)|(WestData), img-url=https://raw.githubusercontent.com/fuziyun/My-Rules/main/icons/Netflix.png
 static=YouTube, proxy, direct, resource-tag-regex=(Amy)|(WestData), img-url=https://raw.githubusercontent.com/fuziyun/My-Rules/main/icons/YouTube.png
 static=Spotify, proxy, direct, resource-tag-regex=(Amy)|(WestData), img-url=https://raw.githubusercontent.com/fuziyun/My-Rules/main/icons/Spotify.png
 static=Telegram, proxy, direct, resource-tag-regex=(Amy)|(WestData), img-url=https://raw.githubusercontent.com/fuziyun/My-Rules/main/icons/Telegram.png
@@ -199,7 +200,7 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Gua
 # Disney+
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list, tag=🎞Disney+, force-policy=Disney+, update-interval=172800, opt-parser=true, enabled=true
 # Netflix
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list, tag=🎞Netflix, force-policy=Netflix, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list, tag=🎞Netflix, force-policy=Netflix, update-interval=172800, opt-parser=true, enabled=true
 # YouTube
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list, tag=🎞YouTube, force-policy=YouTube, update-interval=172800, opt-parser=true, enabled=true
 # Spotify
