@@ -86,6 +86,7 @@ hide-udp = 0
 
 [Proxy Group]
 🚀Proxy = select, policy-path=https://sub.store/download/collection/subscription
+💻Netflix = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
 🇩Disney+ = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
 ▶️YouTube = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
 🎵Spotify = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
@@ -128,7 +129,7 @@ RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ru
 # Disney+
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,🇩Disney+
 # Netflix
-# RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,🎞Streaming
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,💻Netflix
 # YouTube
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,▶️YouTube
 # Spotify
