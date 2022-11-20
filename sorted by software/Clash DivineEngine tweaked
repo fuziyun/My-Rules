@@ -14,7 +14,7 @@ ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Su
 # Disney+
 ruleset=🇩Disney+,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list
 # Netflix
-ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
+ruleset=💻Netflix,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
 # YouTube
 ruleset=▶️YouTube,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list
 # Spotify
