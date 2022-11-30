@@ -90,6 +90,7 @@ hide-udp = 0
 🇩Disney+ = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
 ▶️YouTube = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
 🎵Spotify = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
+🎵Tidal = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
 📟Telegram = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
 🍎Apple = select, 🌐Direct, 🚀Proxy, policy-path=https://sub.store/download/collection/subscription
 🧭Final = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
@@ -134,6 +135,8 @@ RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ru
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,▶️YouTube
 # Spotify
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,🎵Spotify
+# Tidal
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Music/TIDAL.list,🎵Tidal
 
 # Streaming 国际流媒体服务
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list,🎞Streaming
