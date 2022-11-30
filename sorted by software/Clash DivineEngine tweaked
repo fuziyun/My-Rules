@@ -4,35 +4,35 @@
 # Block OTA update for iOS
 #ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Module/Block/SoftwareUpdate.sgmodule
 # Unbreak 后续规则修正
-ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/Unbreak.list
+ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
 # Advertising 广告
-ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/Guard/Advertising.list
+ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
 # Privacy 隐私
-#ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/Guard/Privacy.list
+#ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Privacy.yaml
 # Hijacking 运营商劫持或恶意网站
-ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/Guard/Hijacking.list
+ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
 # Disney+
-ruleset=🇩Disney+,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/StreamingMedia/Video/DisneyPlus.list
+ruleset=🇩Disney+,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/DisneyPlus.yaml
 # Netflix
-ruleset=💻Netflix,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/StreamingMedia/Video/Netflix.list
+ruleset=💻Netflix,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/Netflix.yaml
 # YouTube
-ruleset=▶️YouTube,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/StreamingMedia/Video/YouTube.list
+ruleset=▶️YouTube,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml
 # Spotify
-ruleset=🎵Spotify,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/StreamingMedia/Music/Spotify.list
+ruleset=🎵Spotify,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Music/Spotify.yaml
 # Tidal
 ruleset=🎵Tidal,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Music/TIDAL.yaml
 # Streaming 国际流媒体服务
-ruleset=🎞Streaming,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/StreamingMedia/Streaming.list
+ruleset=🎞Streaming,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
 # StreamingSE 中国流媒体服务(面向海外版本)
-ruleset=🎞StreamingSE,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/StreamingMedia/StreamingSE.list
+ruleset=🎞StreamingSE,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
 # Telegram
-ruleset=📟Telegram,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/Extra/Telegram/Telegram.list
+ruleset=📟Telegram,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Telegram/Telegram.yaml
 # Global 全球加速
-ruleset=🚀Proxy,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/Global.list
+ruleset=🚀Proxy,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
 # Apple 服务
-ruleset=🍎Apple,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/Extra/Apple/Apple.list
+ruleset=🍎Apple,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/Apple.yaml
 # China 中国直连
-ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Ruleset/China.list
+ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
 # my代理
 ruleset=🚀Proxy,https://raw.githubusercontent.com/fuziyun/My-Rules/main/My%20Proxy
 # my直连
