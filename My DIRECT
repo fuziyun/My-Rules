@@ -2,4 +2,4 @@ DOMAIN-KEYWORD,zimuku
 DOMAIN-KEYWORD,downloadtorrentfile
 #DOMAIN-KEYWORD,emby.wtf
 DOMAIN-KEYWORD,direct.nebula-emby.com
-IP-CIDR,159.69
+SRC-IP-CIDR,159.69.62.180
