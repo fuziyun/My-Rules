@@ -6,7 +6,7 @@
 # Unbreak 后续规则修正
 ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list
 # Advertising 广告
-ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
+ruleset=Advertising,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
 # Privacy 隐私
 #ruleset=REJECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list
 # Hijacking 运营商劫持或恶意网站
@@ -51,6 +51,7 @@ custom_proxy_group=🍎Apple`select`[]DIRECT`[]🚀Proxy`.*
 custom_proxy_group=🧭Final`select`[]🚀Proxy`[]DIRECT`.*
 custom_proxy_group=🎞Streaming`select`[]🚀Proxy`[]DIRECT`.*
 custom_proxy_group=🎞StreamingSE`select`[]DIRECT`[]🚀Proxy`.*
+custom_proxy_group=Advertising`select`[]REJECT`[]DIRECT`[]🚀Proxy`.*
 
 enable_rule_generator=true
 overwrite_original_rules=true
