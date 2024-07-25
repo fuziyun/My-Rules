@@ -145,13 +145,13 @@ RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Streaming
 RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/StreamingSE.list,🎞StreamingSE
 
 # Telegram
-RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Telegram/Telegram.list,📟Telegram
+RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Telegram.list,📟Telegram
 
 # Global 全球加速
 RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Global.list,🚀Proxy
 
 # Apple 服务
-RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Apple/Apple.list,🍎Apple
+RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Apple.list,🍎Apple
 
 # China 中国直连
 RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/China.list,🌐Direct
