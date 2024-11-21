@@ -119,8 +119,7 @@ PROCESS-NAME,WebTorrent Helper,🌐Direct
 RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Unbreak.list,🌐Direct
 
 # WeChat
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rewrite/Surge/BlockHTTPDNS/BlockHTTPDNS.sgmodule,WeChat
-
+RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/WeChat/WeChat.list
 # Advertising 广告
 RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Advertising.list,🛡Guard
 DOMAIN-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/AdvertisingPlus.list,🛡Guard
