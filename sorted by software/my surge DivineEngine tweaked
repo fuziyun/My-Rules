@@ -96,6 +96,7 @@ hide-udp = 0
 🧭Final = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
 🎞Streaming = select, 🚀Proxy, 🌐Direct, policy-path=https://sub.store/download/collection/subscription
 🎞StreamingSE = select, 🌐Direct, 🚀Proxy, policy-path=https://sub.store/download/collection/subscription
+WeChat = select, 🌐Direct, 🚀Proxy, policy-path=https://sub.store/download/collection/subscription
 🛡Guard = select, ⛔️Reject, 🌐Direct, 🚀Proxy, policy-path=https://sub.store/download/collection/subscription
 
 [Rule]
@@ -116,6 +117,9 @@ PROCESS-NAME,WebTorrent Helper,🌐Direct
 
 # Unbreak 后续规则修正
 RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Unbreak.list,🌐Direct
+
+# WeChat
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rewrite/Surge/BlockHTTPDNS/BlockHTTPDNS.sgmodule,WeChat
 
 # Advertising 广告
 RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Advertising.list,🛡Guard
