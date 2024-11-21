@@ -6,7 +6,7 @@
 [General]
 # 通用设置
 
-# > 增强版 Wi-Fi 助理呀
+# > 增强版 Wi-Fi 助理
 # (在 Wi-Fi 网络不佳时尝试使用数据网络建立连接，请仅当使用不限量的数据流量时开启)
 wifi-assist = false
 
@@ -119,7 +119,8 @@ PROCESS-NAME,WebTorrent Helper,🌐Direct
 RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Unbreak.list,🌐Direct
 
 # WeChat
-RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/WeChat/WeChat.list
+RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/WeChat/WeChat.list,WeChat
+
 # Advertising 广告
 RULE-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/Advertising.list,🛡Guard
 DOMAIN-SET,https://raw.githubusercontent.com/fuziyun/My-Rules/main/rules/AdvertisingPlus.list,🛡Guard
